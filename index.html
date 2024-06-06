@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>LARINOR</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+ 
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="" class="navbar-brand m-0 p-0" style=">
+                    <h1 class="text-primary m-0" ><font size= "350px" face="Bradley Hand ITC"><i><b>LARINOR</b></i></font></h1>
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                    <p class="m-0">Ilot 4,lot n° 1, Free zone, Tangier, Morocco</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <p class="m-0">info@larinor.ma</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/larinor/?locale=fr_FR"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://x.com/_Larinor?mx=2"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href="https://www.instagram.com/explore/locations/1008769484/larinor/?next=%2Fp%2FBCiUdJvhvjI%2F&hl=en"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+               <h1 class="text-primary m-0"><i>LARINOR</i></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+ <a href="index.html" class="nav-item nav-link">Home</a>
+                   
+                    <a href="#Products" class="nav-item nav-link">Products</a>
+                    <a href="#Services" class="nav-item nav-link">Services</a>
+<a href="#References" class="nav-item nav-link active">References</a>
+             
+                    <a href="#Certifications" class="nav-item nav-link">Certifications</a>
+                </div>
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 35px; height: 45px;">
+                        <i class="fa fa-phone-alt text-primary"></i>
+                    </div>
+                    <div class="ms-3">
+                        <p class="mb-1 text-white">Contact US</p>
+                        <h5 class="m-0 text-secondary">+212 5 39 39 35 90 /+212 5 39 39 35 91 </h5>
+                    </div>
+                </div>
+            </div>
+<div class="nav-item dropdown">
+<br>
+                       <p> <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">..Languages</a>
+                        <div class="dropdown-menu fade-up m-0"></p>
+                            <a href="index - Français.html" class="dropdown-item" ><img class="img-fluid " src="img/Français.jpg" alt="" style="width: 50px; height: 30px;">Français</a>
+<div class="owl-carousel-item position-relative">
+                
+                            <a href="index - Espagnol.html" class="dropdown-item" ><img class="img-fluid " src="img/Espagñol.jpg" alt=""style="width: 50px; height: 30px;">Espagñol</a>
+  
+                            <a href="index.html" class="dropdown-item" > <img class="img-fluid" src="img/English.jpg" alt=""style="width: 50px; height: 30px;">English</a>
+                        </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative" >
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">LARINOR GARMENT FACTORY</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">WHERE FASHION MEETS PRECISION</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">We specialize in crafting high-quality garments that blend style with comfort.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown"></h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4"></h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Welcome to the world of LARINOR Garments, where every thread tells a story and every stitch speaks of craftsmanship. Step into our realm of creativity and elegance, where garments are more than just fabric – they're expressions passion.Our journey began with a passion for creating timeless pieces that reflect the essence of elegance and sophistication.</p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown"></h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4"></h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">At LARINOR, we believe in more than just fashion. We believe in creating pieces that resonate with your values. That's why we're committed to sustainable and ethical practices, ensuring that our garments are as kind to the planet as they are to you.
+</p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+<!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">LARINI HOUDA</h6>
+                    <h1 class="mb-4">We Are Trusted Garment Company Since 2001</h1>
+                    <p class="mb-4">For 23 years, our company has been carefully and passionately weaving a history of quality and innovation in the field of clothing.
+</p>
+                    <p class="mb-4">Each creation we produce embodies our dedication to excellence and our ability to reinvent ourselves in the face of challenges. Our success is based on the strength of our team, made up of diverse and complementary talents, united by a common passion for fashion and detail.
+</p>
+ <p class="mb-4">Together, we have transformed every challenge into an opportunity. We have been able to establish and maintain a reputation for quality that sets us apart in the market. Our products are not just clothing, they are a reflection of our history, our corporate culture and our vision for the future.
+</p>
+                    
+                </div>
+                <div class="col-lg-6 pt-4" style="min-height: 500px;">
+                    <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.6s">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about-1.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="">
+                  
+                    </div>
+                </div>
+            </div>
+        </div>
+ <div id= "Products"></div>
+    </div>
+    <!-- About End -->
+
+    <!-- Service Start -->
+    <div  class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+ <h1 class="mb-5">Our Products</h1>
+                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.1s">
+
+                    <div class="overflow-hidden">
+
+                        <img class="img-fluid w-100 h-100" src="img/service-1.jpg" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
+                        <h5 class="text-truncate me-3 mb-0">Veste</h5>
+                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid w-100 h-100" src="img/service-2.jpg" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
+                        <h5 class="text-truncate me-3 mb-0">Chemise</h5>
+                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid w-100 h-100" src="img/service-3.jpg" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
+                        <h5 class="text-truncate me-3 mb-0">Short</h5>
+                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-- Service Start2 -->
+    <div  class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+ 
+                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid w-100 h-100" src="img/service-4.jpg" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
+                        <h5 class="text-truncate me-3 mb-0">Robe</h5>
+                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid w-100 h-100" src="img/service-5.jpg" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
+                        <h5 class="text-truncate me-3 mb-0">Gilet</h5>
+                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid w-100 h-100" src="img/service-6.jpg" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
+                        <h5 class="text-truncate me-3 mb-0">Bébé & Enfant</h5>
+                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    
+
+
+    <!-- Fact Start -->
+    <div class="container-fluid fact bg-dark my-5 py-5">
+        <div class="container">
+            <div  class="row g-4">
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                    <i class="fa fa-check fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">23</h2>
+                    <p class="text-white mb-0">Years Experience</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                    <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">581</h2>
+                    <p class="text-white mb-0">Employees</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <i class="fa fa-users fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">9</h2>
+                    <p class="text-white mb-0">Satisfied Clients</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                    <i class="fa fa-wrench fa-2x text-white mb-3"></i>
+<br>
+                    <img class="img-fluid" src="img/Image2.png" alt="" data-toggle="counter-up"></h2>
+                    <p class="text-white mb-0">Completed Orders</p>
+                </div>
+            </div>
+        </div>
+ <div id= "Services"></div>
+    </div>
+    <!-- Fact End -->
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5 px-4 px-lg-0">
+        <div class="row g-0">
+            <div class="col-lg-3 d-none d-lg-flex">
+                <div class="d-flex align-items-center justify-content-center bg-primary w-100 h-100">
+                    <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);">23 Years Experience</h1>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-9">
+                <div class="ms-lg-5 ps-lg-5">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+
+                        <h6 class="text-secondary text-uppercase">Our Services</h6>
+                        <h1 class="mb-5">Explore Our Services</h1>
+                    </div>
+                    <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+ <div class="bg-light p-4">
+                            
+                            <h4 class="mb-3">TRIMING</h4>
+                            <p>Ensuring that all products meet the high standards of our customers.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Specialized Machine</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Precision</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Attention to details </p>
+                            <a href="Departments.html" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                        </div>
+                        <div class="bg-light p-4">
+                        
+                            <h4 class="mb-3">CAD & CUTTING</h4>
+                            <p>Standardized and automated processes.</p>
+   <p>Continuous supply of 14 production lines.</p>
+  <p>Optimal use of materials and waste reduction.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Fabric Spreading</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Manual & Automated Cutting</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Sustainable Practices </p>
+                            <a href="Departments.html" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                        </div>
+                        <div class="bg-light p-4">
+                            
+                            <h4 class="mb-3">ASSEMBLING & SEWING</h4>
+                            <p>Latest technologies are integrated into our production process to improve the efficiency and quality of our products.</p>
+
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Qualified Tailors</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Various Machines</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Consistent Quality </p>
+                            <a href="Departments.html" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                        </div>
+                       
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+ <!--<button type="button" class="btn-play" data-bs-toggle="modal" data-src="img/Company Presentation.mp4" data-bs-target="#videoModal">-->
+
+    <!-- Booking Start -->
+    <div class="container-fluid my-5 px-0" data-wow-delay="1.6s">
+        <div class="video wow fadeInUp" data-wow-delay="0.1s">
+         				
+			<button type="button" class="btn-play" data-bs-toggle="modal" data-src="img/Company Presentation.mp4" data-bs-target="#videoModal">	</button>
+</div>
+            <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content rounded-0">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- 16:9 aspect ratio -->
+                            <div class="ratio ratio-16x9">
+                                <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                    allow="autoplay"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="text-white mb-4">WHERE FASHION MEETS PRECISION</h1>
+            <h3 class="text-white mb-0"></h3>
+        </div>
+       <div  id= "References"></div>
+    </div>
+    <!-- Booking End -->
+
+
+    <!-- Team Start -->    
+    <div   class="container-xxl py-5">
+        <div class="container">
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Our Customers</h6>
+                <h1 class="mb-5">Those Who Trusted Us</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">ZARA</h5>
+                                <small></small>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">MANGO</h5>
+                                <small></small>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">STRADIVARUIS</h5>
+                                <small></small>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">MASSIMO DUTTI</h5>
+                                <small></small>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <div id= "Certifications"></div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div  class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div  class="container">
+            <div  class="text-center">
+                <h6 class="text-secondary text-uppercase">Commitment</h6>
+                <h1 class="mb-5">Our Certifications!</h1>
+            </div>
+            <div  class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">Our mission is to provide high-quality garments that meet our customers'demands for fashion and functionality.We ensure this quality through rigorous, validated audits and commit to upholding ethical and sustainable practices.</p>
+                    </div>
+                    <img class="bg-light" src="img/testimonial-1.jpg" style="width: 224px; height: 225px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">QUALITY</h5>
+                    <p class="m-0"></p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">As a proud member of Sedex, we uphold our commitment to social responsibility with transparency and accountability. We are committed to fostering positive social impacts within our communities and beyond, guided by the principles of Sedex's ethical trading framework.</p>
+                    </div>
+                  <img class="bg-light" src="img/testimonial-2.jpg" style="width: 224px; height: 225px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">SOCIAL</h5>
+                    <p class="m-0"></p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">we prioritize sustainability across all aspects of our operations. From sourcing eco-friendly materials to implementing energy-efficient production processes, we strive to minimize our environmental footprint.</p>
+       
+      <p ></p>      <p ></p>      <p ></p>      <p ></p>      <p ></p>      <p ></p>      <p ></p>      <p ></p>      <p ></p>      <p ></p>      <p ></p>      <p ></p> 
+ </div>
+                    <img class="bg-light" src="img/testimonial-3.jpg" style="width: 224px; height: 225px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">SUSTAINABILITY</h5>
+                    <p class="m-0"></p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">we prioritize the well-being of our employees, customers, and communities.  Through comprehensive training programs, regular safety audits, and proactive hazard identification, we strive to prevent accidents and promote a culture of safety awareness. </p>
+                    </div>
+                 <img class="bg-light" src="img/testimonial-4.jpg" style="width: 224px; height: 225px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">SAFETY</h5>
+                    <p class="m-0"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+<!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 py-5">
+        <div class="container">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Have questions or inquiries? We're here to help! Whether you're curious about our products, services, or anything else, don't hesitate to reach out.</a></li>
+                    
+                </ol>
+            </nav>
+        </div>
+    </div>
+  <!-- Contact Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Get In Touch</h6>
+                    <h1 class="mb-4">Contact For Any Query</h1>  
+<div class="mapouter"><div class="gmap_canvas"><iframe class="position-relative w-100"
+ width="660" height="560"  border="0" id="gmap_canvas" allowfullscreen="" aria-hidden="false"
+                        tabindex="0" src="https://maps.google.com/maps?q=Larinor+S.a.r.l.%2C+Ilot+4+Lot+N%C2%B01+%2C+Tanger+Zone+Free%2C+Tanger+90000&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://textcaseconvert.com"></a><br><a href="https://www.intimer.net"></a><br><style>.mapouter{position: relative;text-align: right;height: 560px;width: 500px;}</style><a href="https://www.ongooglemaps.com">adding google map to website</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 560px;width: 500px;}</style></div></div>
+  
+                </div>
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-light p-5 h-100 d-flex align-items-center">
+                        <form action="mailto:qhse@larinor.ma" method="post" enctype="text/plain">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit" >Send Message</button>
+ 
+                                </div>
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Ilot 4,lot n° 1 ,Free zone, Tangier, Morocco</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+212 5 39 39 35 90</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@larinor.ma</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://x.com/_Larinor?mx=2"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/larinor/?locale=fr_FR"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Opening Hours</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">08.00  - 16.30 </p>
+<h6 class="text-light">Saturday:</h6>
+                    <p class="mb-4">08.00  - 13.00 </p>
+                  
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="">CAD & CUTTING</a>
+                    <a class="btn btn-link" href="">ASSEMBLING & SEWING</a>
+                    <a class="btn btn-link" href="">TRIMING</a>
+                    <a class="btn btn-link" href="">QUALITY CONTROL</a>
+                    <a class="btn btn-link" href="">WAREHOUSING</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">LARINOR</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                     
+                        Designed By <a class="border-bottom" href="https://ma.linkedin.com/in/lahbouch-meriem">LAHBOUCH</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+ 
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
